@@ -642,8 +642,8 @@ export const products = [
     id: "product-114",
     name: "แสดง QR ของลิงค์ในแชทเกม",
     categoryId: "addons",
-    originalPrice: 450,
-    price: 300,
+    originalPrice: 800,
+    price: 200,
     description: "รายละเอียด แสดง QR ของลิงค์ในแชทเกม",
     features: [
       "ลิงค์อิสระไม่มีตายตัวเซ็ตไว้ในแอดออน",
