@@ -655,7 +655,7 @@ export const products = [
       { type: "image", url: "/images/stocks/MINEBITQRCHATGEN1.png" },
       { type: "youtube", url: "https://youtu.be/8h-eJFYu9WU" },
     ],
-  }
+  },
 
 
 
