@@ -8,6 +8,8 @@ const categoryIcons: Record<string, string> = {
   "addons": "/images/addons.png",
   "resource-packs": "/images/resourcepacks.png",
   "premium-addons": "/images/premiumaddon.png",
+  "cosmetics": "/images/cosmetics.png",
+  "giveaway": "/images/giveaway.png",
 }
 
 export function Categories() {
