@@ -777,6 +777,35 @@ export const products = [
 
 
 
+
+
+
+
+
+
+  {
+    id: "product-250",
+    name: "หลอดเลือดฟรี V.1",
+    categoryId: "giveaway",
+    originalPrice: null,
+    price: 0,
+    description: "รายละเอียด หลอดเลือดฟรี V.1",
+    features: [
+      "มีโอกาสทับแอดออนอื่นที่มีการใช้ไฟล์ hud_screen.json",
+      "เกมอัพเดตแอดออนไม่พัง",
+      "ฟรี แต่อย่าทะลึ่งเอาไปขายต่อ หรือ ละเมิดลิขสิทธิ์ใดๆ",
+      "รายละเอียดเพิ่มเติมสอบถามได้",
+    ],
+    media: [
+      { type: "image", url: "/images/stocks/freehpbar1.png" },
+      { type: "youtube", url: "https://youtu.be/EGk-aOoH-AI" },
+    ],
+  },
+
+
+
+
+
   
 ]
 
