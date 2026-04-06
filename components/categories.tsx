@@ -19,7 +19,7 @@ export function Categories() {
         <div className="mb-8 flex items-center justify-between">
           <div>
             <h2 className="text-2xl font-bold text-primary md:text-3xl">หมวดหมู่แนะนำ</h2>
-            <p className="text-sm text-muted-foreground">Category Recommended</p>
+            <p className="text-sm text-muted-foreground">Recommended Categories</p>
           </div>
           <Link
             href="/categories"
