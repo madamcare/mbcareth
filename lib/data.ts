@@ -19,27 +19,34 @@ export const categories = [
     name: "PREMIUM ADDONS",
     nameTh: "แอดออนพรีเมี่ยม",
   },
+  {
+    id: "cosmetics",
+    name: "COSMETICS",
+    nameTh: "ของตกแต่งตัวละคร",
+  },
+  {
+    id: "giveaway",
+    name: "GIVE AWAY",
+    nameTh: "แจกของฟรี",
+  },
 ]
 
 export const products = [
   {
     id: "product-1",
-    name: "หางมังกร & อนิเมชั่น",
+    name: "เอวคอด V.1",
     categoryId: "skins-addon",
-    originalPrice: 870,
-    price: 770,
-    description: "รายละเอียด หางมังกร & อนิเมชั่น",
+    originalPrice: null,
+    price: 200,
+    description: "รายละเอียด เอวคอด V.1",
     features: [
-      "ราคารวมทั้งหมดแล้ว งานภาพ, โมเดล, อนิเมชั่น, แอดออน",
-      "อนิเมชั่นหางโค้งงอแบบข้อต่อไม่แตกแยกกันอย่างเห็นได้ชัด",
-      "อนิเมชั่นหางขึ้นลงตามความเร็วเคลื่อนที่ในแนวดิ่งของคน",
       "รายละเอียดเพิ่มเติมสอบถามได้",
     ],
     media: [
-      { type: "image", url: "/images/stocks/minebit_tail.png" },
-      { type: "youtube", url: "https://youtu.be/XbxKlFthJFM" },
-      { type: "image", url: "/images/stocks/minebit_tail2.png" },
-      { type: "image", url: "/images/stocks/minebit_tail3.png" },
+      { type: "image", url: "/images/stocks/nrwbd1.png" },
+      { type: "image", url: "/images/stocks/nrwbd2.png" },
+      { type: "image", url: "/images/stocks/nrwbd3.png" },
+      { type: "image", url: "/images/stocks/nrwbd4.png" },
     ],
   },
   {
@@ -266,50 +273,11 @@ export const products = [
       { type: "youtube", url: "https://youtu.be/tIGVgMANjOY" },
     ],
   },
-  {
-    id: "product-14",
-    name: "เอวคอด V.1",
-    categoryId: "skins-addon",
-    originalPrice: null,
-    price: 200,
-    description: "รายละเอียด เอวคอด V.1",
-    features: [
-      "รายละเอียดเพิ่มเติมสอบถามได้",
-    ],
-    media: [
-      { type: "image", url: "/images/stocks/nrwbd1.png" },
-      { type: "image", url: "/images/stocks/nrwbd2.png" },
-      { type: "image", url: "/images/stocks/nrwbd3.png" },
-      { type: "image", url: "/images/stocks/nrwbd4.png" },
-    ],
-  },
-  {
-    id: "product-15",
-    name: "วงแหวนเวทย์",
-    categoryId: "skins-addon",
-    originalPrice: null,
-    price: 150,
-    description: "รายละเอียด วงแหวนเวทย์",
-    features: [
-      "เป็นไอเท็ม ชุดเกราะสวม หรือ ไอเท็มถือ แล้วแต่ลูกค้าสะดวก",
-      "ไม่ใช้ player.json ใดๆ",
-      "รองรับ Actions & Stuff",
-      "สามารถเปลี่ยนสี หรือ ดีไซน์แหวนได้หากลูกค้าต้องการ",
-      "หากวากมา หรือ เอามาจากในแหล่งอื่นๆอาจจะมีค่าตัดหรือค่าทำรูปใหม่เลียนแบบรอยวาด",
-      "สามารถทำเป็นสกินเกราะที่มีในเกมหลักอยู่แล้วได้",
-      "เรืองแสงในที่มืดสวยๆ",
-      "รายละเอียดเพิ่มเติมสอบถามได้",
-    ],
-    media: [
-      { type: "image", url: "/images/stocks/MineBit_Store_ThaiTechRings1.png" },
-      { type: "youtube", url: "https://youtu.be/UuBSzVrZd_c" },
-      { type: "youtube", url: "https://youtu.be/sHYUvObW3gU" },
-      { type: "youtube", url: "https://youtu.be/OdNNxXQoCt8" },
-      { type: "image", url: "/images/stocks/MineBit_Store_ThaiTechRings2.png" },
-      { type: "image", url: "/images/stocks/MineBit_Store_ThaiTechRings3.png" },
-      { type: "image", url: "/images/stocks/MineBit_Store_ThaiTechRings4.png" },
-    ],
-  },
+  
+
+
+
+  
   {
     id: "product-51",
     name: "มองทะลุ++",
@@ -492,19 +460,20 @@ export const products = [
   },
   {
     id: "product-107",
-    name: "ยศตกแต่งบนหัวแบบลื่นไหลV.1",
+    name: "แสดง QR ของลิงค์ในแชทเกม",
     categoryId: "addons",
-    originalPrice: null,
-    price: 100,
-    description: "รายละเอียด ยศตกแต่งบนหัวแบบลื่นไหล V.1",
+    originalPrice: 800,
+    price: 200,
+    description: "รายละเอียด แสดง QR ของลิงค์ในแชทเกม",
     features: [
-      "เข้ากันได้กับแอดออนอื่นๆโดยไม่ทับ",
-      "สามารถเปลี่ยนดีไซน์ได้หากลูกค้าต้องการ ซึ่งราคาจะแยกออกอีกทีถ้าต้องตัดหรือทำใหม่ตามที่ส่งแบบมา",
+      "ลิงค์อิสระไม่มีตายตัวเซ็ตไว้ในแอดออน",
+      "แสดง QR ของลิงค์ในแชทเกมเมื่อจิ้ม หรือ ชี้ที่ข้อความลิงค์ในแชทเกม",
+      "เว็บเช็ครูป QR <https://qrscanner.net>",
       "รายละเอียดเพิ่มเติมสอบถามได้",
     ],
     media: [
-      { type: "image", url: "/images/stocks/minebitrole1pic1.png" },
-      { type: "youtube", url: "https://youtu.be/ls_WyzKMPH8" },
+      { type: "image", url: "/images/stocks/MINEBITQRCHATGEN1.png" },
+      { type: "youtube", url: "https://youtu.be/8h-eJFYu9WU" },
     ],
   },
   {
@@ -638,24 +607,7 @@ export const products = [
       { type: "image", url: "/images/stocks/RDxMB_Block_Protection2.png" },
     ],
   },
-  {
-    id: "product-114",
-    name: "แสดง QR ของลิงค์ในแชทเกม",
-    categoryId: "addons",
-    originalPrice: 800,
-    price: 200,
-    description: "รายละเอียด แสดง QR ของลิงค์ในแชทเกม",
-    features: [
-      "ลิงค์อิสระไม่มีตายตัวเซ็ตไว้ในแอดออน",
-      "แสดง QR ของลิงค์ในแชทเกมเมื่อจิ้ม หรือ ชี้ที่ข้อความลิงค์ในแชทเกม",
-      "เว็บเช็ครูป QR <https://qrscanner.net>",
-      "รายละเอียดเพิ่มเติมสอบถามได้",
-    ],
-    media: [
-      { type: "image", url: "/images/stocks/MINEBITQRCHATGEN1.png" },
-      { type: "youtube", url: "https://youtu.be/8h-eJFYu9WU" },
-    ],
-  },
+  
 
 
 
@@ -754,6 +706,78 @@ export const products = [
       { type: "youtube", url: "https://youtu.be/oNboj55r7eE" },
     ],
   },
+
+
+{
+    id: "product-200",
+    name: "หางมังกร & อนิเมชั่น",
+    categoryId: "cosmetics",
+    originalPrice: 870,
+    price: 770,
+    description: "รายละเอียด หางมังกร & อนิเมชั่น",
+    features: [
+      "ราคารวมทั้งหมดแล้ว งานภาพ, โมเดล, อนิเมชั่น, แอดออน",
+      "อนิเมชั่นหางโค้งงอแบบข้อต่อไม่แตกแยกกันอย่างเห็นได้ชัด",
+      "อนิเมชั่นหางขึ้นลงตามความเร็วเคลื่อนที่ในแนวดิ่งของคน",
+      "รายละเอียดเพิ่มเติมสอบถามได้",
+    ],
+    media: [
+      { type: "image", url: "/images/stocks/minebit_tail.png" },
+      { type: "youtube", url: "https://youtu.be/XbxKlFthJFM" },
+      { type: "image", url: "/images/stocks/minebit_tail2.png" },
+      { type: "image", url: "/images/stocks/minebit_tail3.png" },
+    ],
+  },
+  {
+    id: "product-201",
+    name: "วงแหวนเวทย์",
+    categoryId: "cosmetics",
+    originalPrice: null,
+    price: 150,
+    description: "รายละเอียด วงแหวนเวทย์",
+    features: [
+      "เป็นไอเท็ม ชุดเกราะสวม หรือ ไอเท็มถือ แล้วแต่ลูกค้าสะดวก",
+      "ไม่ใช้ player.json ใดๆ",
+      "รองรับ Actions & Stuff",
+      "สามารถเปลี่ยนสี หรือ ดีไซน์แหวนได้หากลูกค้าต้องการ",
+      "หากวากมา หรือ เอามาจากในแหล่งอื่นๆอาจจะมีค่าตัดหรือค่าทำรูปใหม่เลียนแบบรอยวาด",
+      "สามารถทำเป็นสกินเกราะที่มีในเกมหลักอยู่แล้วได้",
+      "เรืองแสงในที่มืดสวยๆ",
+      "รายละเอียดเพิ่มเติมสอบถามได้",
+    ],
+    media: [
+      { type: "image", url: "/images/stocks/MineBit_Store_ThaiTechRings1.png" },
+      { type: "youtube", url: "https://youtu.be/UuBSzVrZd_c" },
+      { type: "youtube", url: "https://youtu.be/sHYUvObW3gU" },
+      { type: "youtube", url: "https://youtu.be/OdNNxXQoCt8" },
+      { type: "image", url: "/images/stocks/MineBit_Store_ThaiTechRings2.png" },
+      { type: "image", url: "/images/stocks/MineBit_Store_ThaiTechRings3.png" },
+      { type: "image", url: "/images/stocks/MineBit_Store_ThaiTechRings4.png" },
+    ],
+  },
+  {
+    id: "product-202",
+    name: "ยศตกแต่งบนหัวแบบลื่นไหลV.1",
+    categoryId: "cosmetics",
+    originalPrice: null,
+    price: 100,
+    description: "รายละเอียด ยศตกแต่งบนหัวแบบลื่นไหล V.1",
+    features: [
+      "เข้ากันได้กับแอดออนอื่นๆโดยไม่ทับ",
+      "สามารถเปลี่ยนดีไซน์ได้หากลูกค้าต้องการ ซึ่งราคาจะแยกออกอีกทีถ้าต้องตัดหรือทำใหม่ตามที่ส่งแบบมา",
+      "รายละเอียดเพิ่มเติมสอบถามได้",
+    ],
+    media: [
+      { type: "image", url: "/images/stocks/minebitrole1pic1.png" },
+      { type: "youtube", url: "https://youtu.be/ls_WyzKMPH8" },
+    ],
+  },
+
+
+
+
+
+  
 ]
 
 export function getProductsByCategory(categoryId: string) {
