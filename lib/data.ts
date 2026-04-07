@@ -843,11 +843,11 @@ export const products = [
   },
   {
     id: "product-253",
-    name: "TNT ไม่พังบล็อค",
+    name: "รังผึ้งหวานเดือนห้า",
     categoryId: "giveaway",
     originalPrice: null,
     price: 0,
-    description: "รายละเอียด TNT ไม่พังบล็อค",
+    description: "รายละเอียด รังผึ้งหวานเดือนห้า",
     features: [
       "รับฟรีได้ที่ Discord ร้าน MineBit Store <https://discord.gg/DztQe9Rv49>",
       "โมเดลบล็อคน้ำผึ้งที่แปลกตา",
