@@ -791,6 +791,7 @@ export const products = [
     price: 0,
     description: "รายละเอียด หลอดเลือดฟรี V.1",
     features: [
+      "รับฟรีได้ที่ Discord ร้าน MineBit Store <https://discord.gg/DztQe9Rv49>",
       "มีโอกาสทับแอดออนอื่นที่มีการใช้ไฟล์ hud_screen.json",
       "เกมอัพเดตแอดออนไม่พัง",
       "ฟรี แต่อย่าทะลึ่งเอาไปขายต่อ หรือ ละเมิดลิขสิทธิ์ใดๆ",
@@ -799,6 +800,63 @@ export const products = [
     media: [
       { type: "image", url: "/images/stocks/freehpbar1.png" },
       { type: "youtube", url: "https://youtu.be/EGk-aOoH-AI" },
+    ],
+  },
+  {
+    id: "product-251",
+    name: "ห่วงชูชีพน่ารัก",
+    categoryId: "giveaway",
+    originalPrice: null,
+    price: 0,
+    description: "รายละเอียด ห่วงชูชีพน่ารัก",
+    features: [
+      "รับฟรีได้ที่ Discord ร้าน MineBit Store <https://discord.gg/DztQe9Rv49>",
+      "ไอเท็มอยู่ในช่องกางเกง",
+      "ไอเท็มไม่วันพัง",
+      "ของตกแต่งน่ารักในรูปแบบสวมใส่",
+      "เกมอัพเดตแอดออนไม่พัง",
+      "ฟรี แต่อย่าทะลึ่งเอาไปขายต่อ หรือ ละเมิดลิขสิทธิ์ใดๆ",
+      "รายละเอียดเพิ่มเติมสอบถามได้",
+    ],
+    media: [
+      { type: "image", url: "/images/stocks/FreeLifebuoy.png" },
+      { type: "image", url: "/images/stocks/FreeLifebuoy2.png" },
+    ],
+  },
+  {
+    id: "product-252",
+    name: "TNT ไม่พังบล็อค",
+    categoryId: "giveaway",
+    originalPrice: null,
+    price: 0,
+    description: "รายละเอียด TNT ไม่พังบล็อค",
+    features: [
+      "รับฟรีได้ที่ Discord ร้าน MineBit Store <https://discord.gg/DztQe9Rv49>",
+      "เก็บความสำเร็จในเอาชีวิตรอดได้",
+      "ไม่พึ่ง Beta-API",
+      "ฟรี แต่อย่าทะลึ่งเอาไปขายต่อ หรือ ละเมิดลิขสิทธิ์ใดๆ",
+      "รายละเอียดเพิ่มเติมสอบถามได้",
+    ],
+    media: [
+      { type: "image", url: "/images/stocks/nice_tnt.png" },
+    ],
+  },
+  {
+    id: "product-253",
+    name: "TNT ไม่พังบล็อค",
+    categoryId: "giveaway",
+    originalPrice: null,
+    price: 0,
+    description: "รายละเอียด TNT ไม่พังบล็อค",
+    features: [
+      "รับฟรีได้ที่ Discord ร้าน MineBit Store <https://discord.gg/DztQe9Rv49>",
+      "โมเดลบล็อคน้ำผึ้งที่แปลกตา",
+      "อย่าหาวางติดกันเยอะ เกมมันบัค",
+      "ฟรี แต่อย่าทะลึ่งเอาไปขายต่อ หรือ ละเมิดลิขสิทธิ์ใดๆ",
+      "รายละเอียดเพิ่มเติมสอบถามได้",
+    ],
+    media: [
+      { type: "image", url: "/images/stocks/newbeenestmodel.png" },
     ],
   },
 
