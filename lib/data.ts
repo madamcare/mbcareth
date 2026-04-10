@@ -1,18 +1,8 @@
 export const categories = [
   {
-    id: "skins-addon",
-    name: "SKINS'S ADDON",
-    nameTh: "แอดออนสกิน",
-  },
-  {
     id: "addons",
     name: "ADDONS",
     nameTh: "แอดออนทั่วไป",
-  },
-  {
-    id: "resource-packs",
-    name: "RESOURCE PACKS",
-    nameTh: "แพ็คภาพทรัพยากร",
   },
   {
     id: "premium-addons",
@@ -20,9 +10,19 @@ export const categories = [
     nameTh: "แอดออนพรีเมี่ยม",
   },
   {
+    id: "skins-addon",
+    name: "SKINS'S ADDON",
+    nameTh: "แอดออนสกิน",
+  },
+  {
     id: "cosmetics",
     name: "COSMETICS",
     nameTh: "ของตกแต่งตัวละคร",
+  },
+  {
+    id: "resource-packs",
+    name: "RESOURCE PACKS",
+    nameTh: "แพ็คภาพทรัพยากร",
   },
   {
     id: "giveaway",
