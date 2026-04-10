@@ -4,11 +4,11 @@ import Image from "next/image"
 import { categories } from "@/lib/data"
 
 const categoryIcons: Record<string, string> = {
-  "skins-addon": "/images/skinsaddon.png",
   "addons": "/images/addons.png",
-  "resource-packs": "/images/resourcepacks.png",
   "premium-addons": "/images/premiumaddon.png",
+  "skins-addon": "/images/skinsaddon.png",
   "cosmetics": "/images/cosmetics.png",
+  "resource-packs": "/images/resourcepacks.png",
   "giveaway": "/images/giveaway.png",
 }
 
