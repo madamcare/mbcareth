@@ -918,7 +918,7 @@ export const products = [
       "รายละเอียดเพิ่มเติมสอบถามได้",
     ],
     media: [
-      { type: "image", url: "/images/stocks/formui1.png" },
+      { type: "image", url: "/images/stocks/formui1.jpg" },
     ],
   },
 
