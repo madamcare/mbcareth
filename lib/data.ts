@@ -29,6 +29,11 @@ export const categories = [
     name: "GIVE AWAY",
     nameTh: "แจกของฟรี",
   },
+  {
+    id: "ui",
+    name: "UI",
+    nameTh: "หน้าต่างจอแสดงผล",
+  },
 ]
 
 export const products = [
@@ -863,6 +868,59 @@ export const products = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    id: "product-301",
+    name: "รับทำระบบหน้าบ้าน",
+    categoryId: "ui",
+    originalPrice: null,
+    price: 80,
+    description: "รายละเอียด รับทำระบบหน้าบ้าน",
+    features: [
+      "Discord ร้าน MineBit Store <https://discord.gg/DztQe9Rv49>",
+      "รับทำระบบหน้าบ้าน HUD / Title สำหรับ Minecraft Bedrock",
+      "Custom HUD,  custom Title, Custom bar ,Popup , custom hotbar  และระบบแสดงผลอื่น ๆ ตามที่ต้องการ",
+      "สามารถสั่งทำตามแบบที่ลูกค้าต้องการได้ตามต้องการ",
+      "ขณะนี้ยังอยู่ในช่วง ทดลองและพัฒนา จึงมีราคาพิเศษ แต่ก็ยังมีบางอย่างที่ยังทำไม่ได้",
+      "ราคาเริ่มต้น 80 บาท ทักแชทมาคุยรายละเอียดและประเมินราคาก่อนได้เลย",
+      "รายละเอียดเพิ่มเติมสอบถามได้",
+    ],
+    media: [
+      { type: "image", url: "/images/stocks/ui1.png" },
+      { type: "image", url: "/images/stocks/ui2.png" },
+    ],
+  },
+  {
+    id: "product-302",
+    name: "FormUI สำหรับ Minecraft Bedrock",
+    categoryId: "ui",
+    originalPrice: null,
+    price: 199,
+    description: "รายละเอียด FormUI สำหรับ Minecraft Bedrock",
+    features: [
+      "Discord ร้าน MineBit Store <https://discord.gg/DztQe9Rv49>",
+      "สามารถเข้าไปเลือกตัวอย่างได้ที่เว็บไซต์ <https://mcoeco.github.io/shop/>",
+      "งานสไตล์ตามรูปตัวอย่าง และสามารถสั่งทำตามแบบที่ลูกค้าต้องการได้ (กำหนดธีม สี ปุ่ม และรายละเอียดต่าง ๆ ได้ตามต้องการ)",
+      "ราคาเริ่มต้น 199 บาท ทักแชทมาคุยรายละเอียดและประเมินราคาก่อนได้เลย",
+      "เลือกแบบที่ต้องการ แล้วถ่ายรูปตัวอย่างส่งมาทาง Discord",
+      "รายละเอียดเพิ่มเติมสอบถามได้",
+    ],
+    media: [
+      { type: "image", url: "/images/stocks/formui1.png" },
+    ],
+  },
 
   
 ]
