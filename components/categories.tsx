@@ -10,6 +10,7 @@ const categoryIcons: Record<string, string> = {
   "cosmetics": "/images/cosmetics.png",
   "resource-packs": "/images/resourcepacks.png",
   "giveaway": "/images/giveaway.png",
+  "ui": "/images/ui.png",
 }
 
 export function Categories() {
