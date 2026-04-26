@@ -9,8 +9,8 @@ const categoryIcons: Record<string, string> = {
   "skins-addon": "/images/skinsaddon.png",
   "cosmetics": "/images/cosmetics.png",
   "ui": "/images/ui.png",
-  "other-services": "/images/oss.png",
   "resource-packs": "/images/resourcepacks.png",
+  "other-services": "/images/oss.png",
   "giveaway": "/images/giveaway.png",
 }
 
