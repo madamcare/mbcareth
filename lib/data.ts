@@ -30,12 +30,12 @@ export const categories = [
     nameTh: "แพ็คภาพทรัพยากร",
   },
   {
-    id: "giveaway",
+    id: "other-services",
     name: "OTHER SERVICES",
     nameTh: "บริการอื่นๆ",
   },
   {
-    id: "other-services",
+    id: "giveaway",
     name: "GIVE AWAY",
     nameTh: "แจกของฟรี",
   },
