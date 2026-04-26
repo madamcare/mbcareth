@@ -8,6 +8,7 @@ const heroImages = [
   "/images/hero-banner.jpg",
   "/images/mb-banner2.png",
   "/images/mb-banner3.png",
+  "/images/mb-banner4.png",
 ]
 
 export function Hero() {
