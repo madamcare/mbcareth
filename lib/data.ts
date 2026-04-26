@@ -29,7 +29,11 @@ export const categories = [
     name: "RESOURCE PACKS",
     nameTh: "แพ็คภาพทรัพยากร",
   },
-  
+  {
+    id: "marketplace",
+    name: "MARKETPLACE",
+    nameTh: "Marketplace",
+  },
   {
     id: "giveaway",
     name: "OTHER SERVICES",
