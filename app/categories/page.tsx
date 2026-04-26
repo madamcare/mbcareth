@@ -15,6 +15,7 @@ const categoryIcons: Record<string, string> = {
   "giveaway": "/images/giveaway.png",
 }
 
+
 export default function CategoriesPage() {
   return (
     <div className="min-h-screen bg-background bg-[url('/images/bg-pattern.jpg')] bg-cover bg-fixed bg-center">
