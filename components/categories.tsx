@@ -8,9 +8,10 @@ const categoryIcons: Record<string, string> = {
   "premium-addons": "/images/premiumaddon.png",
   "skins-addon": "/images/skinsaddon.png",
   "cosmetics": "/images/cosmetics.png",
+  "ui": "/images/ui.png",
+  "other-services": "/images/oss.png",
   "resource-packs": "/images/resourcepacks.png",
   "giveaway": "/images/giveaway.png",
-  "ui": "/images/ui.png",
 }
 
 export function Categories() {
