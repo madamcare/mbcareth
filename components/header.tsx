@@ -3,10 +3,11 @@
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Home, Grid3X3, Mail, Menu, X } from "lucide-react"
+import { Home, Grid3X3, Mail, Menu, X, Tag } from "lucide-react"
 
 const navItems = [
   { label: "หน้าหลัก", href: "/", icon: Home },
+  { label: "ราคาสินค้า", href: "/price-list", icon: Tag },
   { label: "หมวดหมู่", href: "/categories", icon: Grid3X3 },
   { label: "ติดต่อ", href: "/contact", icon: Mail },
 ]
