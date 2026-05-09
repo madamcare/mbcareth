@@ -8,7 +8,6 @@ import { ProductName } from "@/components/product-name"
 import { getProductById, getCategoryById } from "@/lib/data"
 import { parseProductNameWithIcon } from "@/lib/utils"
 
-// Parse feature text to extract link: "ข้อความ <URL>" -> { text, url }
 function parseFeatureWithLink(feature: string): { text: string; url: string | null } {
   const match = feature.match(/^(.+?)\s*<(https?:\/\/[^>]+)>$/)
   if (match) {
@@ -106,7 +105,11 @@ export default async function ProductPage({ params }: PageProps) {
                     {product.originalPrice} บาท
                   </span>
                 )}
-                <span className="text-2xl font-bold text-primary">{product.price} บาท</span>
+                {product.price === 0 ? (
+                  <span className="text-2xl font-bold text-green-500">ฟรี</span>
+                ) : (
+                  <span className="text-2xl font-bold text-primary">{product.price} บาท</span>
+                )}
               </div>
 
               <Link
