@@ -102,13 +102,13 @@ export default async function ProductPage({ params }: PageProps) {
                 <span className="text-lg text-muted-foreground">ราคา :</span>
                 {product.originalPrice && (
                   <span className="text-lg text-muted-foreground line-through">
-                    {product.originalPrice} บาท
+                    ฿{product.originalPrice}
                   </span>
                 )}
                 {product.price === 0 ? (
                   <span className="text-2xl font-bold text-green-500">ฟรี</span>
                 ) : (
-                  <span className="text-2xl font-bold text-primary">{product.price} บาท</span>
+                  <span className="text-2xl font-bold text-primary">฿{product.price}</span>
                 )}
               </div>
 
