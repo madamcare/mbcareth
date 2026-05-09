@@ -97,11 +97,11 @@ export default function PriceListPage() {
                         <div className="flex items-center gap-2">
                           {hasDiscount && (
                             <span className="text-sm text-muted-foreground line-through">
-                              {product.originalPrice?.toLocaleString()} ฿
+                              ฿{product.originalPrice?.toLocaleString()}
                             </span>
                           )}
                           <span className={`font-bold ${product.price === 0 ? "text-green-500" : "text-primary"}`}>
-                            {product.price === 0 ? "ฟรี" : `${product.price.toLocaleString()} ฿`}
+                            {product.price === 0 ? "ฟรี" : `฿${product.price.toLocaleString()}`}
                           </span>
                         </div>
                       </Link>
