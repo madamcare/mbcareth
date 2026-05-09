@@ -64,10 +64,10 @@ export const products = [
     name: "โมเดลต่างๆเรืองแสง [รองรับแสงเงา Vibrant]",
     categoryId: "skins-addon",
     originalPrice: null,
-    price: 100,
+    price: 120,
     description: "รายละเอียด โมเดลต่างๆเรืองแสง [รองรับแสงเงา Vibrant]",
     features: [
-      "ราคาเริ่มต้นชิ้นละ ฿100 แล้วแต่ความยากของโมเดล และการลงสีส่วนนั้นๆ",
+      "ราคาเริ่มต้นชิ้นละ ฿120 แล้วแต่ความยากของโมเดล และการลงสีส่วนนั้นๆ",
       "ราคาจะเพิ่มตามความละเอียด หรือ ความยากในการทำสีของงาน",
       "กำหนดระดับความสว่างของการเรืองแสงได้ โปรดบอกก่อนบรีฟงาน",
       "รายละเอียดเพิ่มเติมสอบถามได้",
@@ -86,10 +86,10 @@ export const products = [
     name: "โมเดลต่างๆเรืองแสง [ปกติ]",
     categoryId: "skins-addon",
     originalPrice: null,
-    price: 50,
+    price: 70,
     description: "รายละเอียด โมเดลต่างๆเรืองแสง [ปกติ]",
     features: [
-      "ราคาเริ่มต้นชิ้นละ ฿50 แล้วแต่ความยากของโมเดล และการลงสีส่วนนั้นๆ",
+      "ราคาเริ่มต้นชิ้นละ ฿70 แล้วแต่ความยากของโมเดล และการลงสีส่วนนั้นๆ",
       "ราคาจะเพิ่มตามความละเอียด หรือ ความยากในการทำสีของงาน",
       "กำหนดระดับความสว่างของการเรืองแสงได้ โปรดบอกก่อนบรีฟงาน",
       "รายละเอียดเพิ่มเติมสอบถามได้"
@@ -128,8 +128,8 @@ export const products = [
     price: 100,
     description: "รายละเอียด อนิเมชั่นดวงตา",
     features: [
-      "อนิเมชั่นดวงตา กระพริบตา ฿80 - ฿120",
-      "อนิเมชั่นดวงตา กรอกตาซ้าย & ขวา ตามที่หันหน้า ฿150",
+      "อนิเมชั่นดวงตา กระพริบตา ฿100 - ฿180+ แล้วแต่ความละเอียดสกิน",
+      "อนิเมชั่นดวงตา กรอกตาซ้าย & ขวา ตามที่หันหน้า ฿1500",
       "รายละเอียดเพิ่มเติมสอบถามได้",
     ],
     media: [
@@ -146,7 +146,7 @@ export const products = [
     name: "อนิเมชั่นหน้าอกเด้งดึ๋งๆ V.1",
     categoryId: "skins-addon",
     originalPrice: null,
-    price: 100,
+    price: 150,
     description: "รายละเอียด อนิเมชั่นหน้าอกเด้งดึ๋งๆกว่าร้านไหนๆค่ายแรกของ Bedrock V.1",
     features: [
       "หน้าอกเด้งดึ๋งๆอย่างดี ไม่ใช่เด้งทีละเฟรมแบบค่ายไหนๆ",
@@ -199,7 +199,7 @@ export const products = [
     name: "หน้าอกกลม V.1",
     categoryId: "skins-addon",
     originalPrice: null,
-    price: 100,
+    price: 150,
     description: "รายละเอียด หน้าอกกลม V.1",
     features: [
       "เนื่องจากเป็นของในยุคบุกเบิก ความสวยงามอาจจะไม่เท่ากลม V2",
@@ -216,7 +216,7 @@ export const products = [
     name: "หน้าอกกลม V.2",
     categoryId: "skins-addon",
     originalPrice: null,
-    price: 100,
+    price: 300,
     description: "รายละเอียด หน้าอกเกลม V.2",
     features: [
       "รายละเอียดเพิ่มเติมสอบถามได้",
@@ -234,7 +234,7 @@ export const products = [
     name: "แสดงผลหลายรูปแบบ",
     categoryId: "skins-addon",
     originalPrice: null,
-    price: 50,
+    price: 100,
     description: "รายละเอียด แสดงผลหลายรูปแบบ",
     features: [
       "ไม่คาดคิดล่ะสิว่าจะทำให้เกราะชิ้นนึงจะรันโมเดลได้หลายโมเดลและแสดงผลต่างกัน...",
@@ -364,7 +364,7 @@ export const products = [
     id: "product-102",
     name: "Leaderboard",
     categoryId: "addons",
-    originalPrice: 350,
+    originalPrice: 450,
     price: 300,
     description: "รายละเอียด Leaderboard V.1",
     features: [
@@ -383,7 +383,7 @@ export const products = [
     name: "เพิ่มคำสั่งใหม่ๆ",
     categoryId: "addons",
     originalPrice: null,
-    price: 100,
+    price: 150,
     description: "รายละเอียด เพิ่มคำสั่งใหม่ๆ",
     features: [
       "฿100 ต่อ 3 คอมมานขึ้นอยู่กับความยากของระบบที่จะให้เชื่อมหรือทำ",
@@ -449,10 +449,10 @@ export const products = [
     name: "ดาบใหญ่ไฟงานวัด",
     categoryId: "addons",
     originalPrice: null,
-    price: 300,
+    price: 350,
     description: "รายละเอียด ดาบใหญ่ไฟงานวัด",
     features: [
-      "ราคาเบาๆ เริ่มต้น ฿300 ต่อเล่ม, ซึ่งราคานี้กำหนดดาเมจดาบได้ แต่ราคานี้ไม่รวมสกิลดาบหรือผู้ใช้ใดๆ ต้องสั่งทำเพิ่ม",
+      "ราคาเบาๆ เริ่มต้น ฿350 ต่อเล่ม, ซึ่งราคานี้กำหนดดาเมจดาบได้ แต่ราคานี้ไม่รวมสกิลดาบหรือผู้ใช้ใดๆ ต้องสั่งทำเพิ่ม",
       "ความทนทานกำหนดได้",
       "รองรับแสงเงา Vibrant",
       "รองรับแสงเงาปกติ",
@@ -497,7 +497,7 @@ export const products = [
       "ย้ายของ เข้า & ออก ได้อิสระ",
       "ไม่ใช้ Beta-API",
       "ไม่ใช้ Resource Pack ในการช่วยแสดงผล ดังนั้นไม่ทับแอดออนอื่นแน่นอน UI",
-      "เข้ากันได้กับแอดออนอื่นๆ",
+      "ไม่ทับแอดออนใด เข้ากันได้กับแอดออนอื่นๆ",
       "ดู & จัดการ ไอเท็มได้ครบตั้งแต่ช่อง offhand, เกราะ, hotbar, และ คลังของในตัว",
       "รายละเอียดเพิ่มเติมสอบถามได้",
     ],
@@ -629,7 +629,7 @@ export const products = [
     id: "product-151",
     name: "แอดออนอุ้ม ไม่ทับแอดออนอื่นๆ 100% V.1 </images/aminatedicon/rainbow_gem.png>",
     categoryId: "premium-addons",
-    originalPrice: 650,
+    originalPrice: 680,
     price: 589,
     description: "รายละเอียด แอดออนอุ้ม ไม่ทับแอดออนอื่นๆ 100% V.1",
     features: [
@@ -675,6 +675,33 @@ export const products = [
     ],
   },
   {
+    id: "product-155",
+    name: "Cinecam Add-On </images/aminatedicon/rainbow_gem.png>",
+    categoryId: "premium-addons",
+    originalPrice: null,
+    price: 139,
+    description: "Cinecam Add-On",
+    features: [
+      "เวอร์ชั่นอย่างเป็นทางการได้ที่ Marketplace เท่านั้น",
+      "คลิปเปิดตัว <https://youtu.be/z_DSttSAmDI?si=1RO0P5OHBrqyWpah>",
+      "รีวิว & สอนใช้ <https://www.youtube.com/watch?v=uh4QiuuEyeQ>",
+      "Marketplace <https://www.minecraft.net/en-us/marketplace/pdp/blocklab-studios/cinecam-add--on/c20f9e70-f2e1-4d41-9d4b-b570e981cf24>",
+      "ตัวอย่างการใช้งานโดยผู้สร้าง <https://www.tiktok.com/@se7endays.studio/video/7589604210291903777>",
+      "ตัวอย่างการใช้งานโดยมาดามแคร์ <https://www.tiktok.com/@madamcare.th/video/7633719186736434452>",
+      "ไม่ทับแอดออนอื่นๆแบบที่ร้านอื่นๆขาย (ทั้ง BP/RP ไม่มีวันทับ)",
+      "เกมอัพแอดออนไม่พังเล่นต่อได้ยาวๆ",
+      "เก็บความสำเร็จได้ (Achievement Friendly)",
+      "เล่นกับ Actions & Stuff ได้โดยไม่ทับ",
+      "รายละเอียดเพิ่มเติมสอบถามได้",
+    ],
+    media: [
+      { type: "image", url: "/images/stocks/cinecampc1.png" },
+      { type: "youtube", url: "https://youtu.be/t55IZxRgp2M?si=aemE9DchMmu1ZPW7" },
+      { type: "image", url: "/images/stocks/cinecampc2.png" },
+      { type: "image", url: "/images/stocks/cinecampc3.png" },
+    ],
+  },
+  {
     id: "product-153",
     name: "แอดออนตำรวจสำหรับสาย RolePlay [กำลังพัฒนาต่อ]",
     categoryId: "premium-addons",
@@ -716,6 +743,7 @@ export const products = [
       { type: "youtube", url: "https://youtu.be/oNboj55r7eE" },
     ],
   },
+  
 
 
 {
