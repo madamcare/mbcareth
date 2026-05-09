@@ -10,8 +10,6 @@ import Link from "next/link"
 
 export default function PriceListPage() {
   const [searchQuery, setSearchQuery] = useState("")
-
-  // Group products by category and filter by search
   const filteredProductsByCategory = useMemo(() => {
     const query = searchQuery.toLowerCase().trim()
     
@@ -41,7 +39,8 @@ export default function PriceListPage() {
       <Header />
       <main className="flex-1">
         <div className="container mx-auto px-4 py-8">
-          {/* Header */}
+          {
+          }
           <div className="mb-8">
             <div className="flex items-center gap-3 mb-2">
               <Tag className="h-8 w-8 text-primary" />
@@ -50,7 +49,8 @@ export default function PriceListPage() {
             <p className="text-muted-foreground">รายการราคาสินค้าทั้งหมด แยกตามหมวดหมู่</p>
           </div>
 
-          {/* Search Box */}
+          {
+          }
           <div className="mb-8">
             <div className="relative max-w-md">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
@@ -67,18 +67,21 @@ export default function PriceListPage() {
             </p>
           </div>
 
-          {/* Price List by Category */}
+          {
+          }
           <div className="space-y-8">
             {filteredProductsByCategory.map((category) => (
               <div key={category.id} className="rounded-xl border border-border bg-card overflow-hidden">
-                {/* Category Header */}
+                {
+                }
                 <div className="bg-primary/10 border-b border-border px-4 py-3">
                   <h2 className="text-lg font-bold text-primary">
                     {category.name} - {category.nameTh}
                   </h2>
                 </div>
 
-                {/* Products List */}
+                {
+                }
                 <div className="divide-y divide-border">
                   {category.products.map((product) => {
                     const { name } = parseProductNameWithIcon(product.name)
@@ -108,7 +111,8 @@ export default function PriceListPage() {
               </div>
             ))}
 
-            {/* No Results */}
+            {
+            }
             {filteredProductsByCategory.length === 0 && (
               <div className="text-center py-12">
                 <p className="text-muted-foreground">ไม่พบสินค้าที่ค้นหา</p>
