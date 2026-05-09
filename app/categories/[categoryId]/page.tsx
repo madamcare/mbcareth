@@ -70,13 +70,13 @@ export default async function CategoryPage({ params }: PageProps) {
                       <span className="text-sm text-muted-foreground">ราคา :</span>
                       {product.originalPrice && (
                         <span className="text-sm text-muted-foreground line-through">
-                          {product.originalPrice} บาท
+                          ฿{product.originalPrice}
                         </span>
                       )}
                       {product.price === 0 ? (
                         <span className="text-lg font-bold text-green-500">ฟรี</span>
                       ) : (
-                        <span className="text-lg font-bold text-primary">{product.price} บาท</span>
+                        <span className="text-lg font-bold text-primary">฿{product.price}</span>
                       )}
                     </div>
                   </div>
