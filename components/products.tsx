@@ -56,7 +56,11 @@ export function Products() {
                       {product.originalPrice} บาท
                     </span>
                   )}
-                  <span className="text-lg font-bold text-primary">{product.price} บาท</span>
+                  {product.price === 0 ? (
+                    <span className="text-lg font-bold text-green-500">ฟรี</span>
+                  ) : (
+                    <span className="text-lg font-bold text-primary">{product.price} บาท</span>
+                  )}
                 </div>
               </div>
             </Link>
